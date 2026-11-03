@@ -90,3 +90,19 @@ body{overflow-x:hidden}
  .home-intro{font-size:11px;margin-top:20px}
 }
 @media(max-width:355px){.home-cover h1{font-size:28px!important}.home-directory a{font-size:12px!important;padding:11px 9px!important}}
+
+/* Persistent, immediately accessible archive navigation */
+.site-header{position:relative;top:auto}
+.nav-wrap{max-width:980px;display:flex;flex-direction:column;align-items:center;gap:10px;padding:15px 16px 12px}
+.logo{font-size:18px}
+.nav-list{display:flex!important;position:static!important;width:100%;max-width:930px;align-items:center;justify-content:center;flex-direction:row!important;flex-wrap:wrap;gap:4px 6px;padding:9px 0 0!important;border-top:1px solid #484637;border-bottom:0!important;background:transparent!important}
+.nav-list a{display:inline-flex!important;align-items:center;justify-content:center;border:1px solid transparent!important;padding:9px 10px!important;font-size:12px!important;line-height:1.4;white-space:nowrap;text-decoration:none!important;color:#c4b79d!important}
+.nav-list a.active,.nav-list a[aria-current="page"]{color:#ead6a7!important;border-color:#77674c!important;background:#252a23}
+.menu-btn{display:none!important}
+@media(max-width:600px){
+ .site-header .nav-wrap{padding:13px 12px 9px;min-height:0}
+ .logo{font-size:17px}
+ .nav-list{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px!important;padding:9px 0 0!important}
+ .nav-list a{font-size:11px!important;letter-spacing:0!important;padding:10px 2px!important;min-width:0;white-space:normal;text-align:center}
+ .archive-shell{margin-top:18px}
+}
