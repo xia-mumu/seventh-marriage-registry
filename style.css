@@ -34,3 +34,59 @@ html{scroll-behavior:auto}.archive-shell{margin-top:34px;min-height:65vh}.archiv
  .home-cover>div>div{padding:32px 10px!important}
  .home-cover>div>div>div[style*="font-size:36px"]{font-size:27px!important}
 }
+
+/* VII / refined editorial mobile layout */
+body{overflow-x:hidden}
+.archive-shell{max-width:780px;width:100%;padding:0 20px}
+.page-wrap{width:100%;min-width:0}
+.page-wrap>div:first-child{max-width:100%;overflow-wrap:break-word}
+.page-index{max-width:720px}
+@media(max-width:600px){
+ .site-header .nav-wrap{min-height:66px}
+ .logo{font-size:17px;letter-spacing:.08em}
+ .menu-btn{font-size:18px;padding:6px 11px}
+ .archive-shell{padding:0 16px;margin-top:24px}
+ .page-index{margin:0 0 14px;font-size:10px;line-height:1.5}
+ .page-wrap{font-size:14px!important;line-height:1.8!important;letter-spacing:.035em!important}
+ .page-wrap>div:first-child{margin-bottom:12px!important}
+ .page-wrap>div:first-child>div{padding:27px 17px!important}
+ .page-wrap table{width:100%!important;max-width:100%!important;table-layout:auto}
+ .page-wrap td{overflow-wrap:anywhere}
+ .page-wrap [style*="letter-spacing:0.5em"]{letter-spacing:.13em!important}
+ .page-wrap [style*="letter-spacing:0.4em"]{letter-spacing:.12em!important}
+ .page-wrap [style*="letter-spacing:0.3em"]{letter-spacing:.1em!important}
+ .page-wrap [style*="font-size:36px"]{font-size:29px!important}
+ .page-turn{margin:22px auto 38px}
+ .page-turn a{font-size:12px;line-height:1.5;padding:12px 10px}
+}
+.home-cover .cover-outer{border:1px solid #76674d;background:#1c2320;padding:6px}
+.home-cover .cover-inner{border:1px solid #3e4238;text-align:center;padding:35px 22px 38px}
+.home-cover .cover-overline{font:10px 'Noto Sans TC',sans-serif;color:#bea576;letter-spacing:.23em}
+.home-cover .cover-agency{font-size:12px;color:#a39c8b;letter-spacing:.22em;margin-top:12px}
+.home-cover .cover-flourish{font-size:12px;color:#bea576;margin:18px auto}
+.home-cover h1{font-size:clamp(31px,5vw,43px);font-weight:700;color:#f1e7d1;letter-spacing:.18em;line-height:1.45;margin:0}
+.home-cover .cover-tagline{font-size:14px;letter-spacing:.22em;color:#e4d9bd;margin:18px 0 0}
+.home-cover .cover-quote{max-width:420px;margin:27px auto 0;padding:19px 0;border-top:1px solid #4b493d;border-bottom:1px solid #4b493d;color:#cfc4ab;font-size:14px;line-height:2.1;letter-spacing:.12em}
+.home-cover .cover-bottom{font-size:11px;color:#a39c8b;letter-spacing:.2em;margin-top:23px}
+.home-directory{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:10px!important;max-width:720px;margin:24px auto 50px!important}
+.home-directory a{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:5px!important;padding:17px 15px!important;min-height:68px!important;border:1px solid #655b46!important;background:#1c2320!important;color:#d4bc8d!important;text-decoration:none!important;font-size:14px!important;letter-spacing:.05em!important;white-space:normal!important}
+.home-directory a:hover{border-color:#bea576!important;background:#283029!important}
+.home-directory a .entry-number{font:10px 'Noto Sans TC',sans-serif;color:#857c68;letter-spacing:0;margin-right:7px}
+.home-directory a .entry-arrow{color:#a9946d;margin-left:auto}
+.home-intro{text-align:center;font-size:12px;color:#aaa18f;line-height:1.9;margin:22px auto 0}
+@media(max-width:600px){
+ .home-cover .cover-outer{padding:5px!important}
+ .home-cover .cover-inner{padding:31px 14px 32px!important}
+ .home-cover h1{font-size:32px!important;letter-spacing:.12em!important}
+ .home-cover .cover-overline{font-size:9px;letter-spacing:.12em}
+ .home-cover .cover-agency{font-size:11px;letter-spacing:.13em}
+ .home-cover .cover-flourish{margin:13px auto}
+ .home-cover .cover-tagline{font-size:12px;letter-spacing:.12em;margin-top:14px}
+ .home-cover .cover-quote{margin:22px auto 0;padding:13px 0;font-size:12.5px;line-height:2;letter-spacing:.045em}
+ .home-cover .cover-bottom{font-size:10px;letter-spacing:.12em;margin-top:18px}
+ .home-directory{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important;margin:17px auto 37px!important}
+ .home-directory a{min-height:70px!important;padding:13px 12px!important;font-size:13px!important}
+ .home-directory a .entry-number{font-size:9px;margin-right:4px}
+ .home-intro{font-size:11px;margin-top:20px}
+}
+@media(max-width:355px){.home-cover h1{font-size:28px!important}.home-directory a{font-size:12px!important;padding:11px 9px!important}}
